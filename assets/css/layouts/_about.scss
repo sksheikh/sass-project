@@ -1,0 +1,31 @@
+
+.section-area{
+    
+    .about{
+        .signle-section{
+            float: left;
+            width: 386px;
+            border: 1px solid #ddd;
+            padding: 30px 20px;
+            margin-right: 20px;
+            &:last-child{
+                margin-right: 0;
+            }
+            h4{
+                font-size: 23px;
+                text-transform: capitalize;
+                font-weight: 500; 
+            }
+            p{
+                margin: 16px auto;
+            }
+            a{
+                color: $black;
+                &:hover{
+                    border-color: $black;
+                }
+
+            }
+        }
+    }
+}

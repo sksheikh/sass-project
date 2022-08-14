@@ -1,0 +1,22 @@
+.banner-area{
+    .banner-content{
+        text-align: center;
+        h2{
+            color: #fff;
+            text-transform: capitalize;
+            font-weight: 600;
+            font-size: 43px;
+        }
+        p{
+            width: 600px;
+            margin: 30px auto;
+            color: #fff;
+        }
+        a{
+         
+            &:hover{
+
+            }
+        }
+    }
+}
